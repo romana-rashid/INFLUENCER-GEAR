@@ -96,13 +96,21 @@ p {
   padding-top: 20px;
 }
 /* media query */
-@media only screen and (max-width: 688) {
+@media only screen and (max-width: 480) {
   .nav {
     display: none;
   }
   .influencer,
   .collections,
   .footer {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+  influencer-journey img {
+    width: 100%;
+  }
+  .footer {
+    margin: 0;
+    width: 100vw;
   }
 }
