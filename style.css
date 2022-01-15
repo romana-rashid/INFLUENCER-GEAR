@@ -1,0 +1,96 @@
+/* header starts */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-right: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.influencer {
+  display: flex;
+}
+.influencer-journey {
+  width: 50%;
+  padding-left: 50px;
+  margin-top: 40px;
+}
+h1 {
+  font-size: 3em;
+  margin: 0;
+}
+.influencer-journey img {
+  width: 60%;
+  padding-left: 60px;
+  /* transform: scale(1.3); */
+  margin-bottom: 20px;
+}
+.button {
+  text-decoration: none;
+  background-color: rgb(240, 104, 161);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+/* header ends */
+/* container section starts */
+.popular {
+  text-align: center;
+}
+.collections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.collection {
+  box-shadow: 5px 5px 20px gray;
+  padding: 20px;
+  border-radius: 5px;
+}
+.collection .collection-banner img {
+  width: 300px;
+  height: 200px;
+  align-items: center;
+}
+h3 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+.first-para {
+  display: flex;
+}
+.fa-star.filled {
+  color: rgba(248, 164, 7, 0.89);
+}
+.fa-star-half-alt.filled {
+  color: rgba(248, 164, 7, 0.89);
+}
+.star-info {
+  display: flex;
+}
+.see-more {
+  display: flex;
+  justify-content: end;
+  color: rgb(223, 70, 53);
+}
+.footer {
+  background-color: black;
+  height: 200px;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
